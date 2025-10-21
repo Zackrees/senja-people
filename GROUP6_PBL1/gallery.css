@@ -1,0 +1,133 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+	font-family: "Arial", sans-serif;
+	line-height: 1.6;
+	background-color: #f4f4f4;
+	color: #333;
+}
+header {
+	position: sticky;
+	top: 0;
+	background: black;
+	padding: 15px 30px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar .logo a{
+	text-decoration: none;
+	color: #fff;
+	transition: color 0.3s ease;
+	color: #fff;
+	font-size:1.5rem;
+	font-weight:bold;
+	line-height: 23px;
+}
+
+.navbar .menu{
+	margin-top: 10px;
+	justify-content: right;
+	list-style: none;
+	display: flex;
+	margin-left: auto;
+}
+
+.navbar .menu li{
+	margin-right: 20px;
+}
+
+.navbar .menu a{
+	text-decoration: none;
+	color: #fff;
+	transition: color 0.3s ease;
+}
+
+.navbar .menu a:hover{
+	color: #808080;
+}
+
+.hero{
+	background: url("7.png") no-repeat center center/cover;
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	text-align: left;
+	color: #ffffff;
+}
+
+.hero-content h1{
+	font-family:'Courier', sans-serif;
+	font-size: 5rem;
+	font-weight: bold;
+	margin-left: 30px;
+}
+
+.hero-content p{
+	font-family: "Montserrat" , sans-serif;
+	font-size: 1rem;
+	margin-left: 30px;
+	margin-bottom: 2px;
+	line-height: 18px;
+	letter-spacing: 1px;
+}
+.hero-content h2{
+	font-size: 3rem;
+	margin-bottom: 30px;
+	color: #000000;
+}
+
+.hero2{
+	background: url("6.png") no-repeat center center/cover;
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	text-align: left;
+	color: #ffffff;
+}
+
+.hero3{
+	background: url("3.png") no-repeat center center/cover;
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	color: #ffffff;
+	width: 1420px;
+	height: 803px; 
+}
+
+.hero4{
+	background: url("4.png") no-repeat center center/cover;
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	text-align: left;
+	color: #ffffff;
+	margin-top: 1000px;
+}
+.background{
+	background: black;
+
+footer{      /* keeps the footer in place */
+  bottom: 0;                /* positions it at the bottom */
+  left: 0;                  /* align to left edge */
+  width: 100%;              /* full width across the screen */
+  background-color: black;  /* black bar */
+  color: white;             /* white text */
+  text-align: left;         /* align text to the left */
+  padding: 10px 20px;       /* adjust size of the bar */
+  font-size: 1.1em;         /* slightly bigger text */
+  z-index: 1000;            /* keep it above other elements */
+}

@@ -1,0 +1,110 @@
+body {
+	background-color: #060606;
+	font-family: "Arial", sans-serif;
+}
+.content {
+  text-align: center;
+  color: white;
+}
+
+
+form {
+	background-color: #fff;
+	max-width: 500px;
+	margin: 50px auto;
+	padding: 30px 20px;
+	box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.form-control {
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.form-control label{
+	display: block;
+	margin-bottom: 10px;
+}
+.form-control input;
+.form-control select;
+.form-control textarea{
+	border: 1px solid #777;
+	border-radius: 2px;
+	font-family: inherit;
+	padding: 10px;
+	display: block;
+	width: 95%;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+	display : inline-block;
+	width: auto;
+}
+
+button{
+	background-color: black;
+	color: white;
+	border: 1px solid #777;
+	border-radius: 2px;
+	font-family: inherit;
+	font-size: 21px;
+	display: block;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+header {
+	background: #000000;
+	padding: 15px 30px;
+	position: sticky;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar .logo a {
+  text-decoration: none;
+  color: #fff;           
+  font-size: 1.5rem;      
+  font-weight: bold;
+  line-height: 10px;
+  text-align: left;
+}
+
+.navbar .menu{
+	margin-top: 10px;
+	justify-content: right;
+	list-style: none;
+	display: flex;
+	margin-left: auto;
+}
+
+.navbar .menu li{
+	margin-right: 20px;
+}
+
+.navbar .menu a{
+	text-decoration: none;
+	color: #fff;
+	transition: color 0.3s ease;
+}
+
+.navbar .menu a:hover{
+	color: #808080;
+}	
+
+footer{
+  position: fixed;          /* keeps the footer in place */
+  bottom: 0;                /* positions it at the bottom */
+  left: 0;                  /* align to left edge */
+  width: 100%;              /* full width across the screen */
+  background-color: black;  /* black bar */
+  color: white;             /* white text */
+  text-align: center;         /* align text to the left */
+  padding: 10px 20px;       /* adjust size of the bar */
+  font-size: 1.1em;         /* slightly bigger text */
+  z-index: 1000;            /* keep it above other elements */
+}
